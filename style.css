@@ -1,3 +1,110 @@
-h1{
-    color: blue;
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(167, 169, 171);
+}
+img{
+    border-radius: 15px;
+}
+.img_name{
+    display: flex;
+}
+.description{
+    padding-top: 80px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.can_i_do{
+    border: 1px solid rgb(206, 213, 219);
+    border-radius: 15px;
+    height: fit-content;
+    padding-left: 355px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(206, 213, 219);
+}
+.i_love{
+    border: 1px solid rgb(206, 213, 219);
+    border-radius: 15px;
+    height: fit-content;
+    padding-left: 355px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color:  rgb(206, 213, 219);
+}
+.connection{
+    border: 1px solid rgb(206, 213, 219);
+    border-radius: 15px;
+    height: fit-content;
+    padding-left: 355px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(206, 213, 219);
+}
+.my_achievements{
+    border: 1px solid rgb(206, 213, 219);
+    border-radius: 15px;
+    height: fit-content;
+    padding-left: 355px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(206, 213, 219);
+}
+.info{
+    border: 1px solid rgb(206, 213, 219);
+    border-radius: 15px;
+    height: fit-content;
+    padding-left: 355px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(206, 213, 219);
+}
+.feedback{
+    border: 1px solid rgb(206, 213, 219);
+    border-radius: 15px;
+    height: fit-content;
+    padding-left: 355px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(206, 213, 219);
+}
+ul{
+    list-style: '- ';
+}
+ul li{
+    color: rgb(69, 39, 39);
+}
+ol li{
+    color: rgb(69, 39, 39);
+}
+.table{
+    border: 1px solid black;
+}
+tr th{
+    color: rgb(69, 39, 39);
+}
+tr td{
+    color: rgb(69, 39, 39);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+form > div {
+    display: flex;
+    flex-direction: column;
+}
+form input:focus{
+    border: 1px solid black;
+}
+form button:hover{
+    background-color: rgb(206, 213, 219);
+}
+form button:active{
+    background-color: rgb(69, 39, 39);
+}
+@media only screen and (max-width: 400px){
+    form button{
+        width: 100%;
+        height: 2rem;
+    }
 }

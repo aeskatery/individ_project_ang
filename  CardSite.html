@@ -1,19 +1,47 @@
 <!DOCTYPE html>
 <html lang="EN">
+
 <head>
     <meta charset="utf-8">
     <title>CardSite</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
-        <h1>Сайт Бридни Кати</h1>
-        <div>
-            <img src="img/ my_photo.jpeg" height="350">
-        </div>
+        <h1 class="headline">Сайт Бридни Кати</h1>
+        <ul type="none">
+            <li>
+                <a href="#can_i_do">Что я умею</a>
+            </li>
+            <li>
+                <a href="#i_love">Что я люблю</a>
+            </li>
+            <li>
+                <a href="#my_achievements">Мои достижения</a>
+            </li>
+            <li>
+                <a href="#connection">Как со мной связаться</a>
+            </li>
+            <li>
+                <a href="#feedback">Обратная связь</a>
+            </li>
+        </ul>
     </header>
     <main>
-        <div>
+        <div class="img_name">
+            <img src="img/ my_photo.jpeg" height="350">
+            <div class="description">
+                <h2>Меня зовут Бридня Катя</h2>
+                <p>Привет! Я Бридня Катя ученица 10Б IT-класса Вешняковской школы, я создатель этого
+                    сайта. Мне 15 лет и уже знаю несколько языков программирование. Также я работаю вмсете с университетом
+                    МИРЭА и с помощью преподовательй от туда буду делать свой индивидуальный проект.</p>
+            </div>
+        </div>
+        <div id="can_i_do" class="can_i_do">
             <h3>Что я умею:</h3>
             <ul>
                 <li>Пользоваться компьютером</li>
@@ -22,7 +50,7 @@
                 <li>Писать программы</li>
             </ul>
         </div>
-        <div>
+        <div id="i_love" class="i_love">
             <h3>Что я люблю:</h3>
             <ol>
                 <li>Программирование</li>
@@ -31,7 +59,7 @@
                 <li>Янку</li>
             </ol>
         </div>
-        <div>
+        <div id="connection" class="connection">
             <h3>Как со мной связаться</h3>
             <ul>
                 <li>
@@ -42,9 +70,9 @@
                 </li>
             </ul>
         </div>
-        <div>
+        <div id="my_achievements" class="my_achievements">
             <h3>Мои достижения</h3>
-            <table border="1">
+            <table class="table">
                 <thead>
                     <tr>
                         <th>Название</th>
@@ -76,14 +104,14 @@
                 </tbody>
             </table>
         </div>
-        <div>
+        <div class="info">
             <h3>Дополнительная информация</h3>
             <p>
                 <a href="net.html">Другой html</a>
             </p>
             <iframe src="net.html" frameborder="0"></iframe>
         </div>
-        <div>
+        <div id="feedback" class="feedback">
             <h3>Обратная связь</h3>
             <form method="post">
                 <div>
